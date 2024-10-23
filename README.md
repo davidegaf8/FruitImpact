@@ -9,6 +9,27 @@ Fruit Impact is a web application designed to promote a healthier and more plant
 - Click on a fruit to view detailed nutritional information (e.g., calories, proteins, carbohydrates, fats, etc.).
 - Search functionality to quickly find a specific fruit.
 
+## Local Setup Instructions
+
+### Prerequisites
+- **Node.js** (v14 or later)
+- **Angular CLI** (v12 or later)
+
+### Installation Steps
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/davidegaf8/FruitImpact.git
+   cd FruitImpact
+ 
+2. **Install dependencies**
+    npm install
+
+3. **Run the appication**
+    ng serve
+
+4. **Access the app**
+   Visit http://localhost:4200/ in your browser to use the app locally.
 
 ## Built with:
 
