@@ -24,7 +24,7 @@ Fruit Impact is a web application designed to promote a healthier and more plant
 
 ## Try it:
 
-https://fruitimpact.netlify.app/
+https://fruit-impact.netlify.app/
 
 
 ## Authors
