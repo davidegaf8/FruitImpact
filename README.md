@@ -1,27 +1,41 @@
-# FoodImpact
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+# Fruit Impact 🍏🍌🍇
 
-## Development server
+Fruit Impact is a web application designed to promote a healthier and more plant-based diet.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Main Features
 
-## Code scaffolding
+- Display a list of available fruits.
+- Click on a fruit to view detailed nutritional information (e.g., calories, proteins, carbohydrates, fats, etc.).
+- Search functionality to quickly find a specific fruit.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Built with:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**-** Angular: The primary framework used for building the application.
 
-## Running unit tests
+**-** RxJS: A library used for managing asynchronous functions and reactivity.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**-** HTML & CSS: Custom written without external libraries for greater control over design.
 
-## Running end-to-end tests
+**-** Netlify: Used for hosting and deployment of the site.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Try it:
+
+https://fruitimpact.netlify.app/
+
+
+## Authors
+
+- [@davidegaf8](https://github.com/davidegaf8)
+
+
+## API Reference
+
+https://fruity-vice-default-rtdb.europe-west1.firebasedatabase.app/
+## License
+
+Distributed under the MIT License. See the LICENSE file for more information.
+

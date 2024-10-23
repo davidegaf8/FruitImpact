@@ -1,0 +1,21 @@
+<div class="fruit-card">
+    <!-- Fruit image -->
+    <div class="fruit-image">
+     <img [src]="fruit.image" [alt]="fruit.name" *ngIf="fruit.image; else defaultImage">
+     <ng-template #defaultImage>
+       <img src="./../../../assets/Img/FruitImpact_Logo.png" alt="Default image">
+     </ng-template>
+    </div>
+    
+    <!-- Fruit information -->
+    <div class="fruit-info">
+      <h3 class="fruit-name">{{ fruit.name }}</h3>
+      <ul class="nutrition-values">
+        <li>Calories: <span>{{ fruit.calories }} kcal</span></li>
+        <li>Sugar: <span>{{ fruit.sugars }} g</span></li>
+        <li>Carbohydrates: <span>{{ fruit.carbohydrates }} g</span></li>
+      </ul>
+    </div>
+  <button class="detail-btn" [routerLink]="['/fruit', fruit.id]">View Details</button>
+  </div>
+  

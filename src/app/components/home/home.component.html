@@ -1,0 +1,23 @@
+<section class="home">
+  <div class="search-bar-container">
+    <div class="search-bar">
+      <input type="text" class="search-input" placeholder="Search for a fruit..." [(ngModel)]="searchTerm"
+        (keyup.enter)="searchFruits()">
+      <button type="submit" class="search-button"><i class='bx bx-search' (click)="searchFruits()"></i></button>
+    </div>
+  </div>
+
+  <div class="filter-sort-container">
+    <label for="sort"></label>
+    <select id="sort" [(ngModel)]="sortOption" (change)="sortFruits()">
+      <option value="nameAsc">Name (A-Z)</option>
+      <option value="nameDesc">Name (Z-A)</option>
+      <option value="caloriesAsc">Calories (Low to High)</option>
+      <option value="caloriesDesc">Calories (High to Low)</option>
+    </select>
+  </div>
+
+  <div class="fruit-container">
+    <app-fruit-card *ngFor="let fruit of filteredFruits" [fruit]="fruit"></app-fruit-card>
+  </div>
+</section>

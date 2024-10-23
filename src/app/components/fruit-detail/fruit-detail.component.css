@@ -1,0 +1,133 @@
+/* General container for fruit detail */
+.fruit-detail {
+  background-image: url("../../../assets/Img/full_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fruit-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(245, 245, 245, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 0;
+}
+
+/* Fruit image */
+.fruit-detail-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Fruit name */
+.fruit-detail-container h2 {
+  color: #43a047;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Fruit description */
+.fruit-detail-container p {
+  color: #707070;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Nutritional values list */
+.nutrition-values {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+.nutrition-values p {
+  font-size: 14px;
+  color: #707070;
+  
+}
+
+.nutrition-values li {
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.nutrition-values li span {
+  color: #039be5;
+  font-weight: bold;
+}
+
+button {
+  background-color: #43a047;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2e7d32;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+  
+  .fruit-detail {
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .image-container img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .image-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+ .fruit-detail-container p {
+    margin-bottom: 10px;
+  }
+
+
+}
