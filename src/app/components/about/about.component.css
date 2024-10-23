@@ -79,5 +79,12 @@
     .about-container p {
       font-size: 16px;
     }
+
+    .about-buttons .btn{
+      font-size : 14px;
+      padding: 5px 10px;
+    }
   }
-  
+
+
+   
